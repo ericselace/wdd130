@@ -1,6 +1,25 @@
 main{
     max-width: 840px;
 }
+nav{
+    width: 100%;
+    background-color: #0082e6;
+    height: 80%;
+    display: block;
+    padding: 0;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color: white;
+}
 aside{
     width: 20rem;
     margin: 1 rem;
@@ -25,4 +44,15 @@ footer{
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+main img{
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+    border: 0rem;
+    padding: 0%;
 }
