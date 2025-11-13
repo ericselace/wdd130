@@ -53,6 +53,6 @@ main img{
     width: 200px;
     height: auto;
     box-shadow: 0 0 30px #333;
-    border: 0rem;
-    padding: 0%;
+    border: 10px solid rgb(0, 0, 0/2);
+    padding: 1rem;
 }
