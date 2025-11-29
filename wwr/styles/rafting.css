@@ -91,9 +91,6 @@ h1 {
     float: right;
     width: 125px;
 }
-.hero {
-  position: relative;
-}
 
 .hero h1,
 .hero article {
@@ -113,7 +110,34 @@ h1 {
   max-width: 300px;
 }
 
+section.gallery {
+  padding: 16px;
+}
 
+.gallery h2 {
+  text-align: center;
+  margin-bottom: 16px;
+  color: var(--primary-color);
+}
+
+.figure-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
+
+.figure-row figure {
+  flex: 1;
+  max-width: 150px;text-align: center;
+}
+
+.figure-row img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 6px;
+}
 footer {
   display: flex;
   justify-content: space-between;
