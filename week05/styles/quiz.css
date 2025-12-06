@@ -1,0 +1,28 @@
+[21:28, 06/12/2025] ChatGPT: <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML & CSS Quiz</title>
+</head>
+<body>
+  <h1>HTML & CSS Knowledge Quiz</h1>
+  <form action="submit-quiz.php" method="post">
+    
+    <label for="q1">1. What does HTML stand for?</label><br>
+    <input type="text" id="q1" name="q1"><br><br>
+
+    <label for="q2">2. Which tag is used to create a hyperlink in HTML?</label><br>
+    <select id="q2" name="q2">
+      <option value="">--Choose an answer--</option>
+      <option value="a">&lt;a&gt;</option>
+      <option value="link">&lt;link&gt;</option>
+      <option value="href">&lt;href&gt;</option>
+…
+[21:28, 06/12/2025] ChatGPT: <label for="q4">4. Write a short explanation of what CSS is used for:</label><br>
+    <textarea id="q4" name="q4" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Submit Quiz">
+
+  </form>
+</body>
+</html>
