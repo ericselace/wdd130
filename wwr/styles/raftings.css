@@ -1,0 +1,127 @@
+:root {
+    --primary-color: #55a05;
+    --secondary-color: #f4a261;
+    --accent1-color: #264653;
+    --accent2-color: #e9c46a;
+    --heading-font: "Times New Roman", "Georgia" , serif;
+    --body-font: "Arial","Helvetica", sans-serif;
+} 
+header{
+    
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  width: 840px;
+  margin: 0 auto;
+}
+header img {
+  max-height: 60px;
+  width: auto;
+}
+
+header nav {
+  justify-self: end;
+}
+
+header nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero {
+  position: relative;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px black;
+}
+.newsletter {
+  padding: 2rem;
+  background: #f0f0f0;
+  text-align: center;
+}
+.cta {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.cta p {
+  margin-bottom: 1rem; 
+  font-size: 1.2rem;
+}
+
+.cta-btn {
+  display: inline-block; 
+  margin-top: 0.5rem;    
+  background: #ff6600;
+  color: white;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.grid-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+footer .socialmedia {
+  display: flex;
+  gap: 10px;
+}
+
+footer .socialmedia img {
+  width: 24px;
+  height: 24px;
+}

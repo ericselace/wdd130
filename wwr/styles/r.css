@@ -1,0 +1,37 @@
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.trip-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.trip-item h2 {
+  margin-top: 0.5rem;
+  color: #004466;
+}
+
+.trip-table {
+  padding: 2rem;
+}
+
+.trip-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table th, .trip-table td {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  text-align: center;
+}
+
+.trip-table th {
+  background: #004466;
+  color: white;
+}
+
